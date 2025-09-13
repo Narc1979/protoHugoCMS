@@ -18,3 +18,9 @@
 
   [plugins.inputs]
     record = true
+
+ [build]
+  command = "hugo"
+  publish = "public"
+[context.production.environment]
+  HUGO_VERSION = "0.128.0"
